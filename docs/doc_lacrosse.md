@@ -1,1 +1,0 @@
-Refer to [this link](data_server_stm32/doc_lacrosse.md).
