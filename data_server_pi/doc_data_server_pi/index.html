@@ -7,15 +7,15 @@
         
         
         
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Compatibility Link 2 - tuppi.ovh</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Make Data Server - Part 1 - tuppi.ovh</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -23,7 +23,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="..">tuppi.ovh</a>
+                <a class="navbar-brand" href="../..">tuppi.ovh</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Smart Data Server <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -42,7 +42,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../data_server_pi/doc_data_server_pi/" class="dropdown-item">Make Data Server - Part 1</a>
+    <a href="./" class="dropdown-item active">Make Data Server - Part 1</a>
 </li>
     </ul>
   </li>
@@ -52,11 +52,11 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../data_server_stm32/doc_data_server/" class="dropdown-item">Make Data Server - Part 2</a>
+    <a href="../../data_server_stm32/doc_data_server/" class="dropdown-item">Make Data Server - Part 2</a>
 </li>
             
 <li>
-    <a href="../data_server_stm32/doc_lacrosse/" class="dropdown-item">Calculate LaCrosse TX141TH Checksum</a>
+    <a href="../../data_server_stm32/doc_lacrosse/" class="dropdown-item">Calculate LaCrosse TX141TH Checksum</a>
 </li>
     </ul>
   </li>
@@ -67,20 +67,20 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../doc_mp3_player/" class="dropdown-item">Recycle MP3 Player</a>
+    <a href="../../doc_mp3_player/" class="dropdown-item">Recycle MP3 Player</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Miscellaneous <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../doc_lacrosse/" class="dropdown-item">Compatibility Link 1</a>
+    <a href="../../doc_lacrosse/" class="dropdown-item">Compatibility Link 1</a>
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Compatibility Link 2</a>
+    <a href="../../doc_data_server/" class="dropdown-item">Compatibility Link 2</a>
 </li>
                                 </ul>
                             </li>
@@ -88,12 +88,12 @@
 
                     <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a rel="prev" href="../doc_lacrosse/" class="nav-link">
+                                <a rel="prev" class="nav-link disabled">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../../data_server_stm32/doc_data_server/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -114,12 +114,46 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#smart-home-installation" class="nav-link">Smart Home Installation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#demonstration" class="nav-link">Demonstration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#source-code" class="nav-link">Source Code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p>Refer to <a href="../data_server_stm32/doc_data_server/">this link</a>.</p></div>
+<p><em>Last update on 24/04/2020</em></p>
+<h1 id="smart-home-installation">Smart Home Installation</h1>
+<p>I will decribe on this page a simple Smart Home Installation which I have build for 
+my home. It is based principally on:
+- Raspberry PI
+- STM32 board </p>
+<p><img alt="uml diagram" class="uml" src="data:image/png;base64," title="" /></p>
+<p>The installation is not limited on described modules and can be adapted for all particular uses.</p>
+<h1 id="demonstration">Demonstration</h1>
+<p><img src="../images/img_doc_data_server_pi_demo.gif"></p>
+<h1 id="source-code">Source Code</h1>
+<p>Source code of this project: </p>
+<ul>
+<li>
+<p><a href="https://github.com/tuppi-ovh/data-server-stm32">https://github.com/tuppi-ovh/data-server-stm32</a></p>
+</li>
+<li>
+<p><a href="https://github.com/tuppi-ovh/data-server-pi">https://github.com/tuppi-ovh/data-server-pi</a></p>
+</li>
+</ul></div>
             </div>
         </div>
 
@@ -128,10 +162,10 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
+        <script src="../../js/base.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
