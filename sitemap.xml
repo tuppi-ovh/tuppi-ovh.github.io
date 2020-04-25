@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
+     <loc>https://tuppi.ovh/</loc>
      <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://tuppi.ovh/data_server_pi/doc_data_server_pi/</loc>
      <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://tuppi.ovh/data_server_stm32/doc_data_server/</loc>
      <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://tuppi.ovh/data_server_stm32/doc_lacrosse/</loc>
      <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://tuppi.ovh/doc_mp3_player/</loc>
      <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
+     <loc>https://tuppi.ovh/doc_lacrosse/</loc>
+     <lastmod>2020-04-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://tuppi.ovh/doc_data_server/</loc>
      <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
